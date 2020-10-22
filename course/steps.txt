@@ -1,0 +1,17 @@
+1. Create a model in models.py
+2. admin me register in admins.py
+3. python manage.py makemigrations
+4. python manage.py migrate
+5. python manage.py createsuperuser
+6. settings>instaalled_apps>appname
+
+7. views.py
+    def index(request) #function
+8. Create templates in appname/templates
+9. urls me configurations or URLconfig
+
+
+Templates file
+1. Function based  : course/index.html
+2. List View  :  index_class.html
+3. Detail   : index_detail.html
